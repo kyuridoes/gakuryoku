@@ -1,0 +1,42 @@
+body {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
+  font-family: sans-serif;
+}
+
+#container {
+  display: flex;
+  gap: 20px;
+}
+
+canvas {
+  border: 4px solid #fff;
+  background: #111;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.mini-canvas {
+  border: 2px solid white;
+  background: #111;
+}
+
+#holdCanvas {
+  width: 128px;
+  height: 128px;
+}
+
+#nextCanvas {
+  width: 128px;
+  height: 512px;
+}

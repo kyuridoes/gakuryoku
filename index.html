@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>Puyo Puyo Tetris 風テトリス</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="container">
+    <div class="side-panel">
+      <div>Hold</div>
+      <canvas id="holdCanvas" class="mini-canvas" width="128" height="128"></canvas>
+    </div>
+    <canvas id="tetris" width="320" height="640"></canvas>
+    <div class="side-panel">
+      <div>Next</div>
+      <canvas id="nextCanvas" class="mini-canvas" width="128" height="512"></canvas>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
